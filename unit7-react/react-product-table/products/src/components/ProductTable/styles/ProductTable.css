@@ -1,0 +1,9 @@
+.ProductTable {
+    margin-top: 25px;
+}
+
+.headerCategory {
+    display: inline;
+    font-weight: 700;
+    margin: 5em;
+}

@@ -1,0 +1,7 @@
+.FancyButton {
+    background-color: gold;
+    border: 2px solid goldenrod;
+    border-radius: 2px;
+    display: block;
+    margin: 10px;
+}

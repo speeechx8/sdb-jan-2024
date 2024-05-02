@@ -1,0 +1,70 @@
+body{
+    /* Hides overflow in X direction */
+    overflow-x: hidden;
+    margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+        "content    content     sidebar";
+}
+
+.content{
+    grid-area: content;
+    margin: 10px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    margin: 10px;
+}
+
+.article{
+    margin-bottom: 25px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.title{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    flex-grow: 1;
+}
+
+#icon{
+    height: 50px;
+    width: auto;
+}
+
+.links > a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-grow: 1;
+    height: 100%;
+}
+
+.links > a:hover{
+    background-color: lightskyblue;
+}

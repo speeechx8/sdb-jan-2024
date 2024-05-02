@@ -1,0 +1,17 @@
+header {
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: brown;
+}
+
+p {
+    background-color: chartreuse;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+a:hover {
+    background-color: red;
+}
